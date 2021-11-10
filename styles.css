@@ -1,0 +1,11 @@
+ p {
+    background-color: lightblue;
+    font-family: verdana;
+    font-size: 30px;
+    }
+
+    p.s2 {
+    background-color: greenyellow;
+    font-family: verdana;
+    font-size: 30px;
+    }
