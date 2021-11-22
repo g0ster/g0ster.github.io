@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+C: <input type="text" id="myText" value="Mickey">
+
+<p>Click the button to change C to F.</p>
+
+<button onclick="myFunction()">Change</button>
+
+<p id="demo">F:</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x*9/5+32;
+}
+</script>
+
+</body>
+</html>

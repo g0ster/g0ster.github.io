@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My family</title>
+</head>
+<body style="background-color:orange;">
+
+<a href="/index.html"><h1>Home</h1></a>
+<br>
+<p>B-day: ***<br>gender: OBVIOUS </p>
+<br>
+C: <input type="text" id="myText" value="Mickey">
+
+<p>Click the button to change C to F.</p>
+
+<button onclick="myFunction()">Change</button>
+
+<p id="demo">F:</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x*9/5+32;
+}
+</script>
+
+<br>
+<img src="salt.png" alt="" width="800" height="450">
+</body>
+</html>
